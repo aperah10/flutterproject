@@ -31,10 +31,7 @@ class ProdRespo {
 
     var res = await http.get(
       Uri.parse(url),
-  //      headers: {
-  //   "Accept": "application/json",
-  //   "Access-Control-Allow-Origin": "*"
-  // }
+  
     );
 
     print(res.statusCode);
